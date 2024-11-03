@@ -63,7 +63,7 @@ public class Settings
                         System.currentTimeMillis(),
                         attrName + " changed",
                         attrName,
-                        attrName.equals("switch") ? "boolean" : "string",
+                        attrName.equals("switch") ? "java.lang.Boolean" : "java.lang.String",
                         oldValue,
                         newValue);
 
