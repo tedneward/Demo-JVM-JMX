@@ -32,10 +32,7 @@ Note that the first property does not have a value; simply being set (existing) 
 (There's probably some more research to be done around notifications.)
 
 ## PlatformMBeans
-This is a sample project that leverages the PlatformMBeans to display some information about the local VM.
+This is a sample project that leverages the PlatformMBeans to display some information about the local VM. It obtains a reference to the ClassLoader and Memory beans, then sets the verbosity flag on each to be true and does some additional work just to demonstrate the verbosity flag being on.
 
 
----
-
-Do I need examples of dynamic and open MBeans?
 
